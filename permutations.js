@@ -1,5 +1,7 @@
-var nums = [1, 2, 3]
+//this is the value to change and testing
+let nums = [1, 2, 3]
 
+//init conditional and permutation
 if (nums && nums.length >= 1 && nums.length <= 6) {
   //verify values;
   const verifynumber = nums.filter((el1) => {

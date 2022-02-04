@@ -1,4 +1,7 @@
+//this is the value to change and testing
 let s = 'cbbd'
+
+//init conditional and palindromic
 if (!/[^a-zA-Z]/.test(s)) {
   if (1 <= s.length && s.length <= 1000) {
     let length = s.length
